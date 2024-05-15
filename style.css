@@ -1,0 +1,17 @@
+#mySidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+    z-index: 1000;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
